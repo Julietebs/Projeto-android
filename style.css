@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: bebas;
+    src: url(fontes/BebasNeue-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+body{
+    background-color: #84E1AD;
+    margin: 0px, 100px;
+}
+header{
+    font-family: arial;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #37c475, #2b985b , #2f2e2e);
+    color: white;
+    padding: 3px;
+    margin: 0px;
+    min-width: 30px;
+    height: 150px;
+   
+}
+#principal{
+    font-family: bebas;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.084) ;
+    
+}
+header>p{
+    width: 400px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.779);
+}
+nav{
+text-align: justify;
+font-size: 13px;
+margin-top: 20px;
+text-decoration: none;
+padding: 0px;
+}
+main a{
+    color:#1a5c38;
+    background-color: #68c791a2;
+    padding: 1px;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.nav{
+    color: white; 
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.nav:hover{
+ background-color: #37c475;
+ color:#1a5c38;
+ font-weight: bold;
+ border-radius: 3px;
+ transition: 0.2s;
+ 
+}
+
+main{
+    display: block;
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+
+
+}
+img,iframe{
+    width: 100%;
+}
+#bugdroid{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    height: 140px;
+    margin-left: 15px;
+}
+ul li:before{
+    content: "\2714\00A0";
+    display: inline-block;
+
+}
+ul{
+    column-count: 2;
+    height: 160px;
+
+}
+h1{
+    font-family: 'android';
+    color: #1e7343;
+}
+h2{
+    font-family: 'android';
+    color: #2b985b;
+    background-image: linear-gradient(to right, #abdec3 , #ffffff);
+}
+#extra{
+    background-color: #207846;
+    color: white;
+    font-weight: bold;
+    height: 22px;
+    padding: 8px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+article{
+    background-color: #9ae1b9;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.274);
+
+}
+p{
+    margin: auto;
+    padding: 10px;
+}
+main p{
+    text-indent: 30px;
+    line-height: 1.3em;
+}
+
+footer{
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+}
+
+
+
