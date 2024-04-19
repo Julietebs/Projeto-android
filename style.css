@@ -21,7 +21,7 @@ header{
     text-align: center;
     background-image: linear-gradient(to bottom, #37c475, #2b985b , #2f2e2e);
     color: white;
-    padding: 3px;
+    padding: 10px;
     margin: 0px;
     min-width: 30px;
     height: 150px;
@@ -36,16 +36,15 @@ header{
     
 }
 header>p{
-    width: 400px;
+    margin: auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.779);
 }
 nav{
 text-align: justify;
 font-size: 13px;
-margin-top: 20px;
 text-decoration: none;
-padding: 0px;
+padding-top: 40px;
 }
 main a{
     color:#1a5c38;
