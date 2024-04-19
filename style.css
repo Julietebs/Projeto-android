@@ -38,12 +38,15 @@ header>p{
     margin: auto;
     text-align: center;
     color: rgba(255, 255, 255, 0.779);
+    padding: 10px;
 }
 nav{
 text-align: justify;
 font-size: 13px;
 text-decoration: none;
-padding-top: 15px;
+margin-top: 30px;
+margin-bottom: 0px
+padding-bottom: 0px
 }
 main a{
     color:#1a5c38;
@@ -58,6 +61,7 @@ main a:hover{
 .nav{
     color: white; 
     padding: 10px;
+    padding-bottom: 0px;
     font-weight: bold;
 }
 .nav:hover{
