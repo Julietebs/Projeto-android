@@ -12,6 +12,16 @@
     font-family: android;
     src: url(fontes/idroid.otf) format('opentype');
 }
+
+@media screen and (max-width: 600px) {
+    main h1{
+        margin: 1px;
+    }
+    nav{
+        background-color: rgb(18, 105, 38);
+    }
+
+}
 body{
     background-color: #84E1AD;
     margin: 0px, 100px;
@@ -25,6 +35,10 @@ header{
     min-width: 30px;
     height: 150px;
    
+}
+
+main h1{
+    
 }
 #principal{
     font-family: bebas;
@@ -41,12 +55,12 @@ header>p{
     padding: 10px;
 }
 nav{
-text-align: justify;
-font-size: 13px;
-text-decoration: none;
-margin-top: 30px;
-margin-bottom: 0px
-padding-bottom: 0px
+    text-align: justify;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 main a{
     color:#1a5c38;
