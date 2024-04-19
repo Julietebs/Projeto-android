@@ -44,7 +44,7 @@ nav{
 text-align: justify;
 font-size: 13px;
 text-decoration: none;
-padding-top: 40px;
+padding-top: 30px;
 }
 main a{
     color:#1a5c38;
@@ -59,7 +59,6 @@ main a:hover{
 .nav{
     color: white; 
     padding: 10px;
-    margin-top: 20px;
     font-weight: bold;
 }
 .nav:hover{
